@@ -1,0 +1,85 @@
+{
+  "productosValidos": [
+    {
+      "nombre": "Laptop Dell XPS 13",
+      "precio": 1299.99,
+      "cantidad": 10,
+      "descripcion": "Laptop ultraportátil para profesionales"
+    },
+    {
+      "nombre": "Monitor Samsung 27\"",
+      "precio": 299.99,
+      "cantidad": 25,
+      "descripcion": "Monitor 4K con excelente color"
+    },
+    {
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 129.99,
+      "cantidad": 50,
+      "descripcion": "Teclado gaming con switches mecánicos"
+    },
+    {
+      "nombre": "Mouse Logitech MX Master",
+      "precio": 99.99,
+      "cantidad": 40,
+      "descripcion": "Mouse ergonómico inalámbrico"
+    }
+  ],
+  
+  "productosInvalidos": [
+    {
+      "nombre": "",
+      "precio": 100.00,
+      "cantidad": 5,
+      "errorEsperado": "El nombre no puede estar vacío"
+    },
+    {
+      "nombre": "Producto",
+      "precio": -50.00,
+      "cantidad": 5,
+      "errorEsperado": "El precio no puede ser negativo"
+    },
+    {
+      "nombre": "Producto",
+      "precio": 100.00,
+      "cantidad": -10,
+      "errorEsperado": "La cantidad no puede ser negativa"
+    },
+    {
+      "nombre": "P",
+      "precio": 100.00,
+      "cantidad": 5,
+      "errorEsperado": "El nombre debe tener al menos 3 caracteres"
+    }
+  ],
+
+  "actualizaciones": [
+    {
+      "id": 1,
+      "nombre": "Laptop Dell XPS 15",
+      "precio": 1499.99,
+      "cantidad": 8
+    },
+    {
+      "id": 2,
+      "nombre": "Monitor Samsung 32\" 4K",
+      "precio": 399.99,
+      "cantidad": 15
+    }
+  ],
+
+  "filtrosBasqueda": [
+    {
+      "nombre": "Laptop",
+      "pagina": 0,
+      "tamanio": 10,
+      "resultadosEsperados": "mínimo 1"
+    },
+    {
+      "nombre": "Monitor",
+      "pagina": 0,
+      "tamanio": 5,
+      "resultadosEsperados": "máximo 5"
+    }
+  ]
+}
